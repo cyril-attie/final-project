@@ -1,0 +1,111 @@
+fa-icon {
+  font-weight: bold;
+  padding: 0.7vw 0px 0px 0px;
+  font-size: 4vw;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 6px;
+}
+a {
+  display: block;
+}
+
+fa-icon:hover {
+  opacity: 0.7;
+}
+
+fa-icon#linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+fa-icon#telegram {
+  background: #31a8df;
+  color: white;
+}
+
+fa-icon#twitter {
+  background: #1b95e0;
+  color: white;
+}
+
+fa-icon#facebook {
+  background: #4267b2;
+  color: white;
+}
+
+fa-icon#reddit {
+  background: #ff4500;
+  color: white;
+}
+
+fa-icon#mailto {
+  background: rgb(107, 102, 102);
+  color: white;
+}
+footer {
+  background-color:rgba(12, 25, 90,1);
+}
+
+div#contact {
+  width: fit-content;
+}
+
+div#contact p {
+  font-size: 1.5em;
+  margin: 0px auto 0px;
+  color: white;
+}
+
+#under-footer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  background-color: black;
+}
+
+#under-footer > p {
+  margin: auto;
+  width: 33%;
+  margin-bottom:0px;
+  color:rgba(255,255,255,.5);
+}
+
+#under-footer a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#under-footer a:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+  fa-icon {
+    padding: 0vw 0px 0px 0px;
+    font-size: 3vw;
+    height: 4vw;
+    width: 4vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  fa-icon {
+    padding: 0vw 0px 0px 0px;
+    font-size: 6vw;
+    height: 8vw;
+    width: 8vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  fa-icon {
+    padding: 0vw 0px 0px 0px;
+    font-size: 8vw;
+    height: 10vw;
+    width: 10vw;
+  }
+  #under-footer > p {
+    width: auto;
+  }  
+}

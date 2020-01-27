@@ -1,0 +1,71 @@
+/* #home-body {
+  background-image: url("../../../assets/img/tumbling20s1.png");
+
+ } */
+
+div {
+  flex-flow: row wrap;
+}
+
+span#cards{
+  display:flex; 
+  /* margin-bottom:200px;  */
+  flex-flow:row wrap;
+}
+
+  .card {
+  min-width: 200px;
+  height: 500px;
+  width: 16em;
+  margin:0px auto 6%;
+  border:1px solid rgba(0,0,0,0.7)
+}
+
+.card:hover {
+  border:2px solid rgba(0,0,0,0.7);
+  box-shadow: 4px 3px 3px rgba(15, 68, 128,0.9);
+}
+
+.card:hover>a div.card-body {
+  padding-right: 19px!important;
+  padding-left: 19px!important;
+}
+
+.card a {
+  color:black;
+  text-decoration-line: none;
+  text-align:center;
+}
+
+.card a h5 {
+  font-weight:500;}
+
+#slogan {
+  font-weight: 550;
+  text-align: center;
+  font-size: 3vw;
+  margin: 30px 15px;
+}
+p{
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media screen and (max-width:992px) {
+  #slogan {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width:576px) {
+  #slogan {
+    font-size: 5vw;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+ #slogan {
+   font-size:5.5vw;
+ }
+}

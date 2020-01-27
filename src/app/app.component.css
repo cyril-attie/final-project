@@ -1,0 +1,30 @@
+app-right-side-column {
+  position: fixed;
+  top:38%;
+  right:2vw;
+  width:9vw;
+}
+
+@media screen and (min-width: 576px) {
+  app-right-side-column {
+    position: fixed;
+    top:23%;
+    right:2vw;
+    width:8vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  app-right-side-column {
+    position: fixed;
+    top:23%;
+    right:1vw;
+    width:5vw;
+  }
+}
+
+#read-place {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
